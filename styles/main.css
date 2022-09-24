@@ -29,7 +29,7 @@ body>h1 {
     float: left;
 }
 
-.container-left>img {
+img {
     width: 100px;
     height: 142px;
     position: relative;
@@ -39,12 +39,12 @@ body>h1 {
     padding-bottom: 20px;
 }
 
-.container-left>p {
+p {
     padding: 10px;
     font-size: large;
 }
 
-.container-left>span {
+span {
     padding: 10px;
     font-size: xx-small;
 }
