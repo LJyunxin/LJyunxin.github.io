@@ -1,0 +1,71 @@
+body {
+    background: url("../images/bg2.jpg");
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+body>h1 {
+    color: rgba(82, 108, 255, 0.8);
+    text-align: center;
+}
+
+.container {
+    margin: 3% auto;
+    padding: 20px auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+    width: 800px;
+    height: 500px;
+    box-shadow: 0 0 8px #555;
+    overflow: scroll;
+    text-align: center;
+}
+
+div::-webkit-scrollbar {
+    width: 0;
+}
+
+.container>div {
+    width: 760px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #555;
+    position: relative;
+    margin: .3% auto;
+    line-height: 50px;
+    text-align: start;
+}
+
+.container>input {
+    width: 760px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #555;
+    position: relative;
+    margin: 1% auto;
+    outline: none;
+    border: none;
+}
+
+.footer {
+    display: flex;
+}
+
+.footer .btn-background-switch {
+    background-color: #555;
+    margin: 3% auto;
+    width: 60px;
+    height: 25px;
+    border-radius: 10px;
+
+}
+
+.footer .btn-background-switch:active {
+    scale: 0.98;
+    box-shadow: 0 0 2px #555;
+}
