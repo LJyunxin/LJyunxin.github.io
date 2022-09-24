@@ -1,7 +1,7 @@
 body {
     background: url("../images/bg2.jpg");
     background-size: cover;
-    position: relative;
+    position: flex;
     width: 100%;
     height: 100%;
 
