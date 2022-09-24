@@ -14,24 +14,43 @@ body>h1 {
 }
 
 .container {
-    margin: 3% auto;
-    padding: 20px auto;
-    background-color: rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(5px);
-    border-radius: 5px;
     width: 800px;
+
+    margin: 0% auto;
+}
+
+.container-left {
+    width: 40%;
+    background-color: rgba(255, 255, 255, 0.839);
+    backdrop-filter: blur(5px);
+    border-radius: 5px 0 0 5px;
+    border-right: none;
     height: 500px;
     box-shadow: 0 0 8px #555;
+    float: left;
+}
+
+.container-right {
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+    border-radius: 0 5px 5px 0;
+    border-left: none;
+    height: 500px;
+    box-shadow: 2px 0 0 0 rgba(85, 85, 85, 0.358);
     overflow: scroll;
     text-align: center;
+    float: right;
 }
+
+
 
 div::-webkit-scrollbar {
     width: 0;
 }
 
-.container>div {
-    width: 760px;
+.container-right>div {
+    width: 380px;
     height: 50px;
     border-radius: 5px;
     background-color: #555;
@@ -41,8 +60,8 @@ div::-webkit-scrollbar {
     text-align: start;
 }
 
-.container>input {
-    width: 760px;
+.container-right>input {
+    width: 380px;
     height: 50px;
     border-radius: 5px;
     background-color: #555;
@@ -62,6 +81,10 @@ div::-webkit-scrollbar {
     width: 60px;
     height: 25px;
     border-radius: 10px;
+    position: absolute;
+    bottom: 30px;
+    right: 50%;
+    left: 50%;
 
 }
 

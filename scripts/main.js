@@ -1,7 +1,7 @@
 var backgroundSwitchButton = document.getElementById("backgroundSwitchButton")
-var container = document.getElementById("container")
+var container = document.getElementById("containerRight")
 var todo = document.getElementById("todo")
-var i = 1;
+var i = 2;
 
 todo.addEventListener("keyup", function (event) {
     if (event.keyCode === 13) {
